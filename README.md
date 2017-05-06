@@ -8,4 +8,4 @@ https://en.wikipedia.org/wiki/Tic-tac-toe
 
 you can view this project on codepen here:
 
-https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css
+https://codepen.io/jaqviolet/full/LyOxpW/
