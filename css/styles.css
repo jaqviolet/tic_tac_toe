@@ -1,0 +1,161 @@
+/*--coolors
+black:		 #1C1D21;
+white:		 #EFF1ED;
+light brown: #605B56;
+sage:		 #ACC18A;
+gold:		 #E2DE84;
+
+
+
+*/
+body {
+	background-color:#605B56;
+	text-align:center;
+	color:#1C1D21;
+}
+.container{
+	margin-top:50px;
+	padding-top:80px;
+	width:590px;
+	height:650px;
+	border-style:solid;
+	border-color:#1C1D21;
+	border-size:5px;
+	background-color:#ACC18A
+}
+.btn{
+ 	color: #1C1D21;
+}
+/*--gametype--*/
+
+.gameType{
+	background-color:#E2DE84;
+	height:200px;
+	width:500px;
+	margin-left:auto;
+	margin-right:auto;
+	font-size:40px;
+	padding-top:30px;
+}
+.btn-default{
+	background-color:#EFF1ED;
+	margin-top:20px;
+	width:200px;
+	height:50px;
+	font-size:20px;
+	border-color:transparent;
+	margin-left:10px;
+	margin-right:10px;
+}
+.btn-default:hover{
+	border-color:transparent;
+}
+
+/*--x's or o's--*/
+
+.charChoice{
+	display:none;
+	background-color:#E2DE84;
+	height:200px;
+	width:500px;
+	margin-left:auto;
+	margin-right:auto;
+	font-size:30px;
+	padding-top:15px;
+}
+.btn-basic{
+	background-color:#EFF1ED;
+	margin-top:20px;
+	width:200px;
+	height:50px;
+	font-size:20px;
+	margin-left:10px;
+	margin-right:10px;
+}
+/*--score--*/
+.score{
+	display:none;
+	background-color:transparent;
+	height:80px;
+	width:450px;
+	margin-left:auto;
+	margin-right:auto;
+	font-size:30px;
+	margin-top:-80px;
+	margin-bottom:0px;
+	padding-bottom:5px;
+}
+.pOne{
+	float:left;
+}
+.pTwo{
+	float:right;
+}
+
+/*--grid--*/
+.grid{
+	display:none;
+}
+.line{
+	display:inline-block;
+	background-color:#EFF1ED;
+}
+
+.vert {
+	display:inline-block;
+	width:10px;
+	height:190px;
+	padding:0;
+	margin-bottom:-75px;
+}
+.horizontal{
+	margin-left:15px;
+	width:525px;
+	height:10px;
+	border-radius:50px;
+}
+.top{
+	background-color:#EFF1ED;
+	border-top-left-radius: 50px;
+	border-top-right-radius:50px;
+}
+.mid{
+	background-color:#EFF1ED;
+}
+.bot{
+	position:relative;
+	margin-top:-20px;
+	background-color:#EFF1ED;
+	border-bottom-left-radius: 50px;
+	border-bottom-right-radius:50px;
+}
+
+/*--buttons--*/
+.btn-primary{
+	background-color:transparent;
+	border-color:transparent;
+	display:inline-block;
+	width:160px;
+	height:160px;
+	margin-top:-45px;
+	margin-bottom:5px;
+	
+	font-size:100px;
+	padding-bottom:75px;
+}
+.btn-primary:hover,.btn-primary:active:focus, .btn-primary:active, .btn-primary:focus{
+	background-color:#E2DE84;
+	border-color:transparent;
+	outline:none;
+	color:#1C1D21;
+}
+.btn-primary[disabled], .btn-primary[disabled]:hover, .btn-primary[disabled]:focus, .btn-primary[disabled]:active {
+	background-color:transparent;
+	border-color:transparent;
+	color:#1C1D21;
+}
+
+.bottbut{
+	position:relative;
+	margin-top:-10px;
+}
